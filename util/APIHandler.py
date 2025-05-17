@@ -18,8 +18,8 @@ from anthropic import AsyncAnthropic
 import anthropic
 
 # Google API
-from google import genai as genai_client
-from google.genai import types
+import google.generativeai as genai_client
+from google.generativeai import types
 
 # Import ErrorLogger
 from util.ErrorLogger import log_error
